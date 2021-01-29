@@ -5,7 +5,7 @@ class Tabelas {
     }
 
     createAppointments() {
-        const sql = `CREATE TABLE Appointments (
+        const sql = `CREATE TABLE IF NOT EXISTS Appointments (
             id int NOT NULL AUTO_INCREMENT,
             client varchar(50) NOT NULL, 
             pet varchar(20), 
