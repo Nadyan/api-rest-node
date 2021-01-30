@@ -10,6 +10,8 @@ class Tabelas {
             client varchar(50) NOT NULL, 
             pet varchar(20), 
             service varchar(20) NOT NULL, 
+            appointmentDate datetime NOT NULL,
+            creationDate datetime NOT NULL,
             status varchar(20) NOT NULL,
             obs text,
             PRIMARY KEY(id)
